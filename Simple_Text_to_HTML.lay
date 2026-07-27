@@ -1,0 +1,18 @@
+LAYOUT(Simple_Text_to_HTMLLayout, 720, 460)
+	ITEM(Upp::Label, dv___0, SetLabel(t_("\001[g [ [R5 Realtime Simple Text Editor]]")).SetInk(Upp::SLtBlue).LeftPosZ(12, 404).TopPosZ(8, 20))
+	ITEM(Upp::DocEdit, Editor, LeftPosZ(12, 684).TopPosZ(108, 316))
+	ITEM(Upp::Button, BoldButton, SetLabel(t_("BOLD")).HSizePosZ(416, 216).TopPosZ(48, 24))
+	ITEM(Upp::Button, ItalicButton, SetLabel(t_("ITALIC")).HSizePosZ(512, 120).TopPosZ(48, 24))
+	ITEM(Upp::Button, UnderlineButton, SetLabel(t_("UNDERLINE")).HSizePosZ(608, 24).TopPosZ(48, 24))
+	ITEM(Upp::Button, SetTitleButton, SetLabel(t_("Indicate Title")).LeftPosZ(12, 80).TopPosZ(48, 24))
+	ITEM(Upp::Button, ParagraphsButton, SetLabel(t_("Auto Paragraphs")).LeftPosZ(208, 100).TopPosZ(48, 24))
+	ITEM(Upp::Button, SectionButton, SetLabel(t_("Set Section")).LeftPosZ(100, 100).TopPosZ(48, 24))
+	ITEM(Upp::Button, HelpButton, SetLabel(t_("\aHELP")).SetFont(Upp::SerifZ(17).Bold().Underline()).LeftPosZ(640, 76).TopPosZ(8, 24))
+	ITEM(Upp::Button, CopyButton, SetLabel(t_("COPY")).HSizePosZ(136, 460).TopPosZ(428, 28))
+	ITEM(Upp::Button, CleanButton, SetLabel(t_("CLEAN")).LeftPosZ(444, 124).TopPosZ(428, 28))
+	ITEM(Upp::ButtonOption, dv___11, SetLabel(t_("INSERT SELECTED")).RightPosZ(216, 88).TopPosZ(76, 28))
+	ITEM(Upp::ButtonOption, dv___12, SetLabel(t_("Set Indicated")).RightPosZ(628, 80).TopPosZ(76, 28))
+	ITEM(Upp::DropList, TextsStylesButton, LeftPosZ(512, 184).TopPosZ(76, 28))
+	ITEM(Upp::DropList, TextsFormatsButton, LeftPosZ(100, 208).TopPosZ(76, 28))
+END_LAYOUT
+

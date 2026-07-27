@@ -1,0 +1,11 @@
+uses
+	CtrlLib;
+
+file
+	Simple_Text_to_HTML.h,
+	main.cpp,
+	Simple_Text_to_HTML.lay;
+
+mainconfig
+	"" = "GUI";
+
